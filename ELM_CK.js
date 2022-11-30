@@ -4,7 +4,7 @@
 hostname = waimai-guide.ele.me
 [rewrite_local]
 # 饿了么获取ck
-^https:\/\/waimai-guide\.ele\.me\/mtop\/alibaba\/svip\/langrisser\/query/? url script-request-header https://raw.githubusercontent.com/xzxxn777/quanx/main/ELM/ELM_CK.js
+^https:\/\/waimai-guide\.ele\.me\/mtop\/alibaba\/svip\/langrisser\/query/? url script-request-header https://raw.githubusercontent.com/coolmankk/lessme/main/ELM/ELM_CK.js
  */
 const $ = new Env('饿了么获取ck');
 const isRequest = typeof $request != "undefined"
